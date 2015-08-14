@@ -7,7 +7,7 @@ gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '~> 2.14.0.rc1'
   gem 'minitest'
 end
 group :test do
@@ -44,6 +44,10 @@ gem 'sprockets', '2.12.3'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 # Use unicorn as the app server
 # gem 'unicorn'
